@@ -1,0 +1,19 @@
+.main {
+  width: 300px;
+  height: 350px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+div {
+  width: 80%;
+  height: 37px;
+}
+.error-input, .error-user {
+  color: red;
+}
+.success {
+  color: green;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="./martstyle.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="main">
+    <h1>Вход на сервер</h1>
+    <div class="enter">
+      <label for="name">Name</label>
+      <input class="input" type="text" id="name" name="username">
+    </div>
+    <div class="error-input"></div>
+    <div class="variant">
+      <input type="radio" name="position" id="plr" value="plr">
+      <label for="plr">Игрок</label>
+    </div>
+    <div class="variant">
+      <input type="radio" name="position" id="mdr" value="mdr">
+      <label for="mdr">Модератор</label>
+    </div>
+    <div class="variant">
+      <input type="radio" name="position" id="obs" value="obs">
+      <label for="obs">Наблюдатель</label>
+    </div>
+    <div class="error-user"></div>
+    <button class="enterBtn">Вход</button>
+    <div class="success"></div>
+     
+  </div> 
+
+  <script src="./martjs.js"></script>
+</body>
+</html>
